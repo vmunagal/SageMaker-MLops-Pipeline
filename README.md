@@ -52,7 +52,7 @@ In order to run the Pipeline , you need to give amazonsagemaker full access , Am
 
 ![img_1.png](img_1.png)
 
-
+Below are the workflow steps and you can find the scripts related to them in scripts folder , ipython notebook
 1) T5DemoPreprocessing  : To preprocess the data and store it in the S3 bucket 
 2) TrainingT5Model : Training of T5 model and store the model to s3 bucket .
 3) EvalStep : write the evaluation report to s3 bucket which is further used for model register.
