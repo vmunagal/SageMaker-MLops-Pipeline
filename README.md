@@ -75,7 +75,7 @@ ModelResponse:
 You can do inference in "Test inference in Sagemaker Studio":
 ![img_5.png](img_5.png)
 
-**End of notes** 
+`End of notes`
 
 
 
