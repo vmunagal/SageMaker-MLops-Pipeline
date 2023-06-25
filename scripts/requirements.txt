@@ -1,0 +1,7 @@
+rouge==1.0.1
+rouge-score==0.1.2
+transformers==4.30.2
+torch==1.13.1
+datasets==2.13.0
+accelerate==0.20.3
+tensorboard==2.11.2
