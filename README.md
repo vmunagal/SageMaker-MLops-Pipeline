@@ -8,7 +8,6 @@ In order to run the Pipeline , you need to give amazonsagemaker full access , Am
 {
  "Version": "2012-10-17",
     "Statement": [
-    
         {
             "Effect": "Allow",
             "Action": [
