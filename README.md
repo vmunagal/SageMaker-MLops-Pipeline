@@ -49,7 +49,8 @@ In order to run the Pipeline , you need to give amazonsagemaker full access , Am
 
 **Workflow Diagram:**
 
-![img.png](img.png)
+![img_1.png](img_1.png)
+
 
 1) T5DemoPreprocessing  : To preprocess the data and store it in the S3 bucket 
 2) TrainingT5Model : Training of T5 model and store the model to s3 bucket .
@@ -57,19 +58,19 @@ In order to run the Pipeline , you need to give amazonsagemaker full access , Am
 4) CheckEvalRogue : Its conditional step to check "evaluation rouge1score" if the value is greater than or equal to 0.25  the model will be created and it get register'd in model registry.
 5) FailedStep: if "rouge1" score value is less than 0.25 workflow will be halted and workflow status would be changed to failed .
 6) T5RegisterModel : Model get registered like below .
-![img_1.png](img_1.png)
-7) Deploy-T5-HealthCareModel: Step where the deployment takes place and available for inference.
-
 ![img_2.png](img_2.png)
-
-ModelResponse:
-
+7) Deploy-T5-HealthCareModel: Step where the deployment takes place and available for inference.
 ![img_3.png](img_3.png)
 
 
-You can do inference in "Test inference in Sagemaker Studio":
-
+ModelResponse:
 ![img_4.png](img_4.png)
+
+
+
+
+You can do inference in "Test inference in Sagemaker Studio":
+![img_5.png](img_5.png)
 
 
 
