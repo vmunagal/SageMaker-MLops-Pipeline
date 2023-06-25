@@ -3,8 +3,7 @@
 
 In order to run the Pipeline , you need to give amazonsagemaker full access , AmazonSageMakerPipelinesIntegrations and below poicy to be added(which used to give iam access to create lambda role and execute the lambda step)
 
-
-{
+![](images){
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -47,7 +46,12 @@ In order to run the Pipeline , you need to give amazonsagemaker full access , Am
     ]
 }
 
-image.png
+**Workflow Diagram:**
+
+![img.png](img.png)
+
+
+
 
 
 
