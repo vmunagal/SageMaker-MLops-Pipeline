@@ -22,7 +22,6 @@ In order to run the Pipeline , you need to give amazonsagemaker full access , Am
                 "arn:aws:lambda:*:*:function:*SageMaker*"
             ]
         },
-        
         {
             "Effect": "Allow",
             "Action": [
@@ -37,7 +36,6 @@ In order to run the Pipeline , you need to give amazonsagemaker full access , Am
                 }
             }
         },
-        
         {
             "Effect": "Allow",
             "Action": [
