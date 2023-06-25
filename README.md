@@ -1,10 +1,10 @@
 # SageMaker-MLops-Pipeline
  End-End MLops Pipeline - Training of T5 model on Disease Description dataset
 
-In order to run the Pipeline , you need to give amazonsagemaker full access , AmazonSageMakerPipelinesIntegrations and below poicy to be added(which used to give iam access to create lambda role and execute the lambda step)
+In order to run the Pipeline , you need to give execution role **amazonsagemaker full access** , **AmazonSageMakerPipelinesIntegrations** and below policy to be added(which used to give iam access to create lambda role and execute the lambda step)
 
 
-`[
+[
 {
  "Version": "2012-10-17",
     "Statement": [
@@ -46,7 +46,9 @@ In order to run the Pipeline , you need to give amazonsagemaker full access , Am
             "Resource": "arn:aws:iam::*:role/*"
         }
     ]
-}]()`
+}
+]()
+
 
 **Workflow Diagram:**
 
